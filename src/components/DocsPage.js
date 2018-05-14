@@ -84,7 +84,7 @@ const successNotification = (mes, des, courseId) => {
   notification.success({
     message: mes,
     description: "Pages: " + des,
-    icon: <a href = {name}><Icon type="tags" /></a>,
+    icon: <a href = {name} target="_blank"><Icon type="tags" /></a>,
     placement: "bottomRight"
   });
 };
